@@ -1,0 +1,136 @@
+body{
+    margin: 3px;
+    height: 100vh;
+}
+.parent{
+    background-color:#69645f3f;
+    border-top: 10px solid #69645f;
+    margin:0px 10px;
+}
+.container{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.contain1 > div:first-of-type,
+.contain2 >div:first-of-type,
+.contain3 >div:first-of-type,
+.contain4 >div:first-of-type{
+  font-family: "Sansita Swashed", system-ui;
+  font-style: normal;
+  font-size: 18px;
+}
+.contain h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+.contain p:first-of-type{
+    margin-top: 5px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 15px;
+    word-spacing: 1px;
+    margin-bottom: ;
+}
+.contain a{
+    color: rgb(122, 15, 15);
+    margin-bottom: 5px;
+}
+.contain > div:nth-child(2){
+    margin-top: 25px;
+}
+.contain div:nth-child(2) div:first-of-type{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.contain > div:first-of-type{
+    margin-top:25px ;
+}
+.contain > div{
+    float: left;
+}
+.contain > div:nth-child(2){
+float: right;
+}
+.contain{
+    border-bottom: 1px solid #69645f8e;
+}
+.contain::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.contain > div:nth-child(2):last-of-type{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+}
+.contain1,.contain2,.contain3,.contain4{
+    border-bottom: 1px solid #69645f54;
+    padding: 20px;
+}
+.contain1 > div,
+.contain2 > div,
+.contain3 > div,
+.contain4 > div{
+    float:left
+}
+.contain1 > div:first-of-type{
+    width: 230px;
+}
+.contain1 > div:nth-child(2){
+    width:460px;
+    margin-left: 15px;
+    line-height: 1.3;
+}
+.contain1::after,
+.contain2::after,
+.contain3::after,
+.contain4::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.contain2 > div,
+.contain3 > div{
+    width:calc((100% - 120px) /4 )
+}
+.contain2 > div:not(:first-of-type),
+.contain3 > div:not(:first-of-type){
+    margin-left:30px;
+}
+ .contain2 > div p:last-of-type{
+    width: 185px;
+    line-height: 1.3;
+} 
+.contain3{
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    line-height: 1.5;
+     margin: 0;
+}
+.contain4 > div:not(:last-of-type){
+    width: 230px;
+}
+.contain4 > div:nth-child(2) {
+    width: 60%;
+    margin-left: 25px;
+}
+.contain4 > div:nth-child(2) p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.contain4 > div:nth-child(2) p:last-of-type{
+    font-size: 14px;
+    line-height: 1.3;
+}
+.contain4 > .date{
+    float: right;
+}

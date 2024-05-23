@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="GET" novalidate target="_blank">
+        <input type="text" name="user" placeholder="username" autofocus>
+        <input type="email" placeholder="write y 
+        our email" value="elfekyahmed337@gmail.com" name="email" readonly>
+        <input type="password" name="pas" minlength="6" required maxlength="30" id="">
+        <input type="hidden" name="hidd" value="Mohamed">
+        <label for="co">color</label>
+        <input type="color" name="color" id="co" >
+        <input type="range" name="range" value="15" min="0" max="100" step="5" >
+        <div>
+            <input type="number" name="age" value="23" min="18" max="60" step="2" disabled >
+        </div>
+        <div>
+            <input type="radio" name="os" value="windows" id="win">
+            <label for="win">Windows</label>
+        </div>
+        <div>
+            <input type="radio" name="os" value="Linux" id="Lin">
+            <label for="Lin">Linux</label>
+
+        </div>
+        <hr>
+        <div>
+            <input type="checkbox" name="lang1" value="html" id="lang1">
+            <label for="lang1">HTML</label>
+        </div>
+         <div>
+            <input type="checkbox" name="lang2"  value="css" id="lang2">
+            <label for="lang2">CSS</label>
+        </div>
+         <div>
+            <input type="checkbox" name="lang3" value="js" id="lang3">
+            <label for="lang3">Js</label>
+        </div>
+        <label for="select">Choose Favorite Player</label>
+            <select name="Player" id="select">
+                <optgroup label="Choose Egyptian Player ">
+                    <option value="Abotreika">Abotreika</option>
+                    <option value="Amr Zaki">Amr Zaki</option>
+                    <option value="Barkat">Barkat</option>
+                    <option value="Mohamed Salah">Mohamed Salah</option>
+                    <option value="Emad Moteb">Barkat</option>
+                </optgroup>
+                <optgroup label="Choose Eurobean Player">
+                    <option value="Messi">Messi</option>
+                    <option value="Cristino Ronaldo">Cristino Ronaldo</option>
+                    <option value="Neymar">Neymar</option>
+                    <option value="Mbappe">Mbappe</option>
+                    <option value="halaand">Halaand</option>
+                </optgroup>
+                <optgroup label="Choose Coach best ">
+                     <option value="Guardula">Guardula</option>
+                    <option value="yorgn Klop">Cristino Ronaldo</option>
+                    <option value="Ancholty">Ancholty</option>
+                    <option value="Alex fyrgson">Alex fyrgson</option>
+                    <option value="Marcel Kolar">Marcel Kolar</option>
+                </optgroup>
+            </select>
+            <br>
+            <div>
+             <textarea name="subject" placeholder="Test Text" required rows="10" cols="40" style="overflow: hidden; resize: both;"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="se">search</label>
+                <input type="search" name="" id="se">
+            </div>
+            <br>
+            <div>
+                <label for="ur">Url</label>
+                <input type="url" name="" id="ur">
+            </div>
+            <br>
+            <div>
+                <label for="file">Upload File</label>
+                <input type="file" name="" id="file" accept=".png,image/*,.pdf,.html">
+            </div>
+            <br>
+             <div>
+                <label for="dat">date</label>
+                <input type="date"  name="birthdate" id="dat">
+            </div>
+            <br>
+               <br>
+             <div>
+                <label for="date">date</label>
+                <input type="datetime-local" value="05-12-2024 03-50 Am" name="birthdate by hours" id="date">
+            </div>
+            <br>
+            <input type="month">
+            <input type="time" value="11:24" min="09:00" max="12:00">
+            <br>
+            <br>
+            <br>
+            <hr>
+            <div>
+                <label for="programmin">Choose programming:</label>
+                <input list="programming" name="prog" id="programmin">
+                <datalist id="programming">
+                    <option value="C">
+                    <option value="C++">
+                    <option value="C#">
+                    <option value="Java">
+                    <option value="Kotlin">
+                    <option value="PHP">
+                    <option value="Javascript">
+                    <option value="python">
+                    <option value="dart">
+                </datalist>
+            </div>
+            <q>This Is Wise Word</q>
+            <blockquote>This Is Wise Word</blockquote>
+            <button>Click</button>
+            <br>
+            <div style="width: 200px; background-color: #eee;">
+      https://www.youtube.com/<wbr>playlist?list=PLM_i0obccy3swdHfFh1FrLEVVFMp8<wbr>-5J<wbr>c&fbclid=IwAR2eP038MSFNJSmNCssdpaBm3KofEJUG9e<wbr>jR95GGGm9AKB0StOIPpLA6fgc
+            </div>
+            <p><bdi>السلام</bdi> 2 welcome</p>
+            <br>
+             <label id="plan1">1</label>
+            <div role="checkbox" tabindex="0" aria-checked="true" aria-labelledby="plan1">Plane One</div>
+            <div role="checkbox" aria-checked="" aria-labelledby="plan2" tabindex="1">Plane Two</div>
+             <input type="submit" value="send">
+        <input type="reset" value="delete">
+    </form>
+    <br>
+    <br>
+    <br>
+    <script src="file.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+span{
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*> direct child*/
+.p > p{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+}
+.p > p::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #000;
+}
+.p > p::first-letter{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #000;
+}
+.p #em{
+    color: aqua;
+}
+
+.out{
+    text-align: center;
+    border: 2px solid red;
+    padding: 20px;
+    outline: 5px solid black;
+    outline-offset: 3px;/*the Space between the border and outline*/
+}
+.box{
+    width: 200px;
+    /*overflow: scroll;*/
+   /* overflow: auto;*//*same scroll but it necessery only*/
+  /* overflow: hidden;*/
+  overflow: visible;/* default and  The content renders outside the element's box*/
+    background-color: aqua;
+    height: 120px;
+}

@@ -1,0 +1,31 @@
+table{
+    width: 100%;
+    border:1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+    height: 170px;
+}
+table tr:first-of-type td{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+table tr:first-of-type td:nth-child(2),
+table tr:first-of-type td:nth-child(4),
+table tr:first-of-type td:nth-child(6),
+table tr:nth-child(2) td,
+table tr:nth-child(4) td,
+table tr:nth-child(3) td:nth-child(2),
+table tr:nth-child(3) td:nth-child(4),
+table tr:nth-child(3) td:nth-child(6),
+table tr:last-of-type td:nth-child(2),
+table tr:last-of-type td:nth-child(4),
+table tr:last-of-type td:nth-child(6){
+    background-color: #4d7e7a1e;
+}
+
+
+table tr td{
+    border: 1px solid #000;
+    padding: 10px;
+    
+}

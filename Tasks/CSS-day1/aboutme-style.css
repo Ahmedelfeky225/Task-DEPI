@@ -1,0 +1,22 @@
+body{
+    background-color: #1F2833;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+h1,h2{
+    color: #66FCF1;
+}
+p:first-of-type,ul,ol,span,p{
+   color: #CFC6C7;
+}
+p:first-of-type span{
+    color: #fff;
+    font-weight: 600;
+}
+p:last-of-type{
+    font-size: 13.5px;
+}
+ol a{
+color: #fff;
+}
